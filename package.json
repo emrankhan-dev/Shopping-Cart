@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s01kccenpt",
+  "description": "https://v2.scrimba.com/s01kccenpt",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
