@@ -1,6 +1,6 @@
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: #000;
+    background-color: #141414;
     height: 100vh;
     color: white;
     text-align: center;
@@ -59,17 +59,17 @@ input:hover {
     background-color: #77d685;
 }
 
-
 ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 10px; 
     padding: 0;
+    overflow: auto;
 }
 
 ul li {
-    background-color: #000;
+    background-color: #141414;
     border: 1px solid #f7f6f9;
     color: #fff;
     padding: 15px;
