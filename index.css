@@ -18,6 +18,14 @@ h1 {
     color: #f7f6f9;
 }
 
+.shopping-message {
+    color: #9b9b9b;
+    font-size: 1rem;
+    margin-top: 0px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
 img {
     width: 150px;
     margin-bottom: 40px;
@@ -51,12 +59,15 @@ input:hover {
      box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.6);
 }
 
-#add-btn-el {
+.btn {
     background-color: #4da75b;
+    color: whitesmoke;
 }
 
-#add-btn-el:hover {
+.btn:hover {
     background-color: #77d685;
+    color: #000;
+    
 }
 
 ul {
@@ -85,5 +96,28 @@ ul li:hover {
     color: #000;
 }
 
+
+.log-out {
+    color:lightsalmon
+}
+
+.log-out:hover {
+    color: lightcoral;
+    cursor: pointer;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-name {
+    color: #4da75b;
+    cursor: pointer;
+}
+
+.user-name:hover {
+    color: #77d685;
+}
 
 
